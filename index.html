@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0110)file:///C:/Users/%E9%BD%8B%E8%97%A4%E3%80%80%E5%85%89%E7%A5%90/Desktop/shidan_css_practice/templates/home.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="file:///C:/Users/%E9%BD%8B%E8%97%A4%E3%80%80%E5%85%89%E7%A5%90/Desktop/shidan_css_practice/static/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flask app</title>
+    </head>
+    <body>
+      <header>
+        <div class="header-main">
+          <div class="header-left">
+            <h1>😊WELCOME to our WEBSITE</h1>
+        
+          </div>
+          <div class="header-right">
+            <a href="#">START</a>
+
+          </div>
+
+        </div>
+
+
+      </header>
+     <div class="top">
+        <div class="hasami">
+
+         <div class="container">
+           <h1>SHIDAN FOOD STREET</h1>
+           <p class="setumei">🍜<span class="span-style">we can find your best ramen</span>🍜</p>
+           <p class="setumei"><span class="span-style">please try to use this app❢</span></p>
+           <h3>~your best ramen~</h3>
+           <a class="start" href="#">START</a>
+         </div>
+
+        </div> 
+        <p class="online">On line</p>
+        <div class="renraku-contents">
+            <a class="issyoda instada" href="#">📷instagram</a>
+            <a class="issyoda webda" href="#">👪our website</a>
+
+        </div>
+      </div>
+      <div class="bottom">
+        
+      
+      </div>     
+
+        
+
+    
+    
+
+</body></html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../static/css/choice.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flask app</title>
+    </head>
+    <body>
+      <header>
+        <div class="header-main">
+          <div class="header-left">
+            <h1>🍜 Which Ramen do you like?🍜</h1>
+        
+          </div>
+          
+
+        </div>
+      </header>
+      
+    <div class="top">
+      <div class="hasami">
+        <form class="" action="/result" method="POST">
+          <button type="submit", name="choice" value="{{candidate[0]}}">
+            <img src="../static/test/sample1.jpg" alt="#">
+        </form>
+        <form class="" action="/result" method="POST">
+          <button type="submit", name="choice" value="{{candidate[1]}}">
+            <img src="../static/test/sample2.jpg" alt="#">
+        </form>
+      </div>
+    </div>
+      
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../static/css/result.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flask app</title>
+    </head>
+   <body>
+    <div class="header">
+     <h1>🍜Your best Ramen is...</h1>
+    </div>
+
+    <h1 class="kekka">★result-ramen-name★</h1>
+     
+    
+    <div class="top">
+      
+      <div class="hasami">
+
+       <div class="container">
+          
+          <img class="syasin" src="../static/train/konjiki.jpg" alt="#">
+          
+       </div>
+ 
+      </div>
+
+      <div class="container2">
+       <p>connect</p>
+       <a class="btn howtogo" href="#">🤔How to go?</a>
+       <p>On line</p>
+       <a class="btn insta" href="#">📷instagram</a>
+       <a class="btn web" href="#">👪our website</a>
+      <div/> 
+
+      
+
+    </div>
+    
+    
+    </body>
+</html>
