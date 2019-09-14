@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../static/css/choice.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flask app</title>
+    </head>
+    <body>
+      <header>
+        <div class="header-main">
+          <div class="header-left">
+            <h1>🍜 Which Ramen do you like?🍜</h1>
+        
+          </div>
+          
+
+        </div>
+      </header>
+      
+    <div class="top">
+      <div class="hasami">
+        <form class="" action="/result" method="POST">
+          <button type="submit", name="choice" value="{{candidate[0]}}">
+            <img src="../static/test/sample1.jpg" alt="#">
+        </form>
+        <form class="" action="/result" method="POST">
+          <button type="submit", name="choice" value="{{candidate[1]}}">
+            <img src="../static/test/sample2.jpg" alt="#">
+        </form>
+      </div>
+    </div>
+      
+    </body>
+</html>
