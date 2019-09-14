@@ -1,0 +1,61 @@
+*{
+  box-sizing:border-box;
+}
+
+
+header{
+  background-color:rgba(34,49,52,0.8);width:100%;height:100%;
+}
+.header-left{
+  height:100%;
+}
+.header-left h1{
+  color:white;font-size:35px;font-family:cursive;
+  text-align:left;
+}
+
+.top{
+  text-align:center;background-image:url(../picture/image/school.jpg);
+  background-size:cover;width:100%;
+}
+
+.hasami{
+  height:100%;
+  background-color:rgba(255,255,255,0.5);
+}
+
+img{
+  width:100%;border-radius:20px;
+}
+
+@media(max-width:670px){
+  header{
+    background-color:rgba(34,49,52,0.8);width:100%;height:100%;
+  }
+  .header-left{
+    height:100%;
+  }
+  .header-left h1{
+    color:white;font-size:22px;font-family:cursive;
+    text-align:left;
+  }
+  
+  .top{
+    text-align:center;background-image:url(../picture/image/school.jpg);
+    background-size:cover;width:100%;height:750px;
+  }
+  
+  .hasami{
+    height:100%;
+    background-color:rgba(255,255,255,0.5);
+  }
+  
+  img{
+    width:300px;
+    border-radius:20px;
+  }
+
+  button{
+    margin-top:100px;
+  }
+}
