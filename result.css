@@ -3,8 +3,11 @@
 }
 
 .header{
-    background-color:#223134cc;width:100%;color:white;
-    font-size:25px;font-family:cursive;
+    background-color:#223134cc;width:100%;
+}
+
+.title{
+    font-size:35px;color:white;
 }
 
 
