@@ -9,11 +9,11 @@ header{
   float:left;height:100%;
 }
 .header-left h1{
-  color:white;margin-left:50px;font-size:40px;font-family:cursive;
+  color:white;margin-left:50px;font-size:40px;
 }
 .header-right{
   float:right;background-color:rgba(36, 202, 77, 0.7);font-size:30px;
-  margin-right:100px;display:block;font-family:cursive;
+  margin-right:100px;display:block;
   border-radius:10px;padding-left:50px;padding-right:50px;box-shadow:10px 10px black;
 }
 .header-right:hover{
@@ -39,21 +39,20 @@ header{
 }
 .container h1{
   font-size:100px;text-align:center;padding-top:15px;
-  font-family:cursive;
 }
 .setumei{
-  font-size:60px;text-align:center;font-family:monospace;
+  font-size:60px;text-align:center;
 }
 .span-style{
-  opacity:0.8;color:cornflowerblue;font-family:cursive;
+  opacity:0.8;color:cornflowerblue;
 }
 .container h3{
-  font-size:80px;text-align:center;font-family:cursive;
+  font-size:80px;text-align:center;
 }
 .start{
   display:inline-block;background-color:rgb(36,202,77,0.7);
   font-size:60px;color:black;border-radius:10px;
-  margin-left:750px;margin-bottom:15px;font-family:cursive;
+  margin-left:750px;margin-bottom:15px;
   box-shadow:10px 10px black;
 }
 .start:hover{
@@ -69,7 +68,7 @@ header{
 
 .issyoda{
   font-size:50px;padding:50px;opacity:0.8;
-  border-radius:10px;font-family:cursive;margin-left:16%;
+  border-radius:10px;margin-left:16%;
   box-shadow:10px 10px black;
 }
 .renraku-contents{
@@ -100,11 +99,11 @@ header{
     float:left;height:100%;
   }
   .header-left h1{
-    color:white;margin-left:5px;font-size:18px;font-family:sans-serif;
+    color:white;margin-left:5px;font-size:18px;
   }
   .header-right{
     float:right;background-color:rgba(36, 202, 77, 0.7);font-size:15px;
-    margin-right:5px;display:block;font-family:sans-serif;
+    margin-right:5px;display:block;
     border-radius:10px;padding-left:5px;padding-right:5px;
     box-shadow:5px 5px black;
   }
@@ -127,21 +126,20 @@ header{
   }
   .container h1{
     font-size:50px;text-align:center;padding-top:15px;
-    font-family:sans-serif;
   }
   .setumei{
-    font-size:20px;text-align:center;font-family:sans-serif;
+    font-size:20px;text-align:center;
   }
   .span-style{
-    opacity:0.8;color:cornflowerblue;font-family:sans-serif;
+    opacity:0.8;color:cornflowerblue;
   }
   .container h3{
-    font-size:30px;text-align:center;font-family:sans-serif;
+    font-size:30px;text-align:center;
   }
   .start{
     display:inline-block;background-color:rgb(36,202,77,0.7);
     font-size:30px;color:black;border-radius:10px;
-    margin-left:120px;margin-bottom:15px;font-family:sans-serif;
+    margin-left:120px;margin-bottom:15px;
     box-shadow:8px 8px black;
   }
   .start:hover{
@@ -154,7 +152,7 @@ header{
   
   .issyoda{
     font-size:20px;padding:15px;opacity:0.8;
-    border-radius:10px;font-family:sans-serif;box-shadow:8px 8px black;
+    border-radius:10px;box-shadow:8px 8px black;
   }
   .renraku-contents{
     margin-top:20px;
