@@ -71,8 +71,11 @@ p{
 
 @media(max-width:670px){
     .header{
-        background-color:#223134cc;width:100%;color:white;
-        font-size:10px;font-family:sans-serif;
+        background-color:#223134cc;width:100%;height:100%;
+    }
+    
+    .title{
+        font-size:20px;color:white;
     }
     
     
