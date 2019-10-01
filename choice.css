@@ -15,7 +15,7 @@ header{
 }
 
 .top{
-  text-align:center;background-image:url(../picture/image/school.jpg);
+  text-align:center;background-image:url(../picture/image/ra-men.jpg);
   background-size:cover;width:100%;
 }
 
@@ -30,18 +30,18 @@ img{
 
 @media(max-width:670px){
   header{
-    background-color:rgba(34,49,52,0.8);width:100%;height:100%;
+    background-color:rgba(34,49,52,0.8);width:100%;height:50px;
   }
   .header-left{
     height:100%;
   }
   .header-left h1{
-    color:white;font-size:22px;font-family:sans-serif;
-    text-align:left;
+    color:white;font-size:20px;font-family:sans-serif;
+    text-align:left;line-height:50px;
   }
   
   .top{
-    text-align:center;background-image:url(../picture/image/school.jpg);
+    text-align:center;background-image:url(../picture/image/ra-men.jpg);
     background-size:cover;width:100%;height:750px;
   }
   
@@ -51,7 +51,7 @@ img{
   }
   
   img{
-    width:300px;
+    width:100%;
     border-radius:20px;
   }
 
